@@ -1,0 +1,5 @@
+# COEP/COOP removed — they block Google Fonts and crash the page
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
